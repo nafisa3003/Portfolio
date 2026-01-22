@@ -2,10 +2,13 @@ body {
     background-color: #fafafa;
     font-family: 'Times New Roman', Times, serif;
     color: #111111;
-    margin: 40px;
+    margin: 0px;
+    padding: 0 20px;
 }
 
-h1, h2 {
-    font-family: 'Times New Roman', Times, Georgia, serif;
-    color: #c0567a; 
+header, section {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
 }
+
