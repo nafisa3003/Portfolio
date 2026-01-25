@@ -1,15 +1,18 @@
 body {
-    background-color: #f4f6fb;
+    background: url('images/background.jpg') no-repeat center center;
+    background-size: cover; 
+    background-attachment: fixed;
     font-family: 'Times New Roman', Times, serif;
     color: #111111;
-    margin: 0px;
-    padding: 0 20px;
+    margin: 0;
+    padding: 0 0;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding: 10px 0;
 }
 
@@ -51,9 +54,9 @@ body {
 }
 
 header, section {
-    max-width: 1000px;
-    margin: 50px auto;
-    padding: 20px;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 30px;
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
@@ -62,13 +65,13 @@ header, section {
 h1 {
     font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 h2 {
     font-size: 1.8rem;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: #6b7280;
 }
 
@@ -157,6 +160,7 @@ p {
 
 .project a:hover {
     background-color: #395094;
+    color: #ffffff;
 }
 
 .contact-links {
