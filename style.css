@@ -48,14 +48,16 @@ body {
 .logo:hover {
   transform: scale(1.1);
 }
-span {
+.gradient-text {
   background: linear-gradient(
     270deg, 
     #ecbbd0 10%, 
     #ff56b0 100%
   );
+  -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  display: inline-block;
 }
 .navbar a{
   font-size: 1.8rem;
