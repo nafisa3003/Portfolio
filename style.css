@@ -57,10 +57,11 @@ body {
   font-size: 1.8rem;
   color: var(--text-color);
   margin-left: 4rem;
-  font-weight: 500;
+  font-weight: 600;
   transition: 0.3s ease-in-out;
   border-bottom: 3px solid transparent;
 }
+.navbar a.active,
 .navbar a:hover {
   color: var(--main-color);
   border-bottom: 3px solid var(--main-color);
