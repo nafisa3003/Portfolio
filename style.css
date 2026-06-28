@@ -51,7 +51,7 @@ body {
 .pink-text {
   color: var(--main-color);
   display: inline-block;
-  text-shadow: 0 0 10px rgba(255, 82, 176, 0.5);
+  text-shadow: 0 0 10px rgba(255, 65, 169, 0.5);
 }
 .navbar a{
   font-size: 1.8rem;
